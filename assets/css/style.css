@@ -3,19 +3,36 @@ a {
 }
 
 body {
-	width: 968px;
+	height: 100%;
+	width: auto;
+	background-image: url(../../assets/images/brickwall.png);
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
 } 
+
+#wrapper {
+	max-width: 960px;
+	margin-left: 10%;
+}
 
 h1 {
 	position: relative;
 	height: 75px;
+	width: auto;
+	border-bottom: solid;
+	border-color: #cccccc;
+	width: auto;
+	background-color: #ffffff;
+
 }
 
 #myName {
 	position: absolute;
-	left: 120px;
-	width: 20%;
-	padding: 25px;
+	left: 10%;
+	width: 250px;
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 	font-size: 150%;
@@ -27,21 +44,99 @@ h1 {
 	float: right;
 	position: relative;
 	width: 50%;
-	padding: 25px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #About {
 	position: absolute;
-	right: 285px;
+	right: 420px;
+	color: grey;
 }
 
 #Portfolio {
 	position: absolute;
-	right: 200px;
+	right: 328px;
+	border-left: solid;
+	border-width: 1px;
+	border-color: #eee;
+	padding-left: 15px;
+	color: grey;
 }
 
 #Contact {
 	position: absolute;
-	right: 120px;
+	right: 238px;
+	border-left: solid;
+	border-width: 1px;
+	border-color: #eee;
+	padding-left: 10px;
+	color: grey;
+}
+
+section {
+	float: left;
+	position: relative;
+	width: 55%;
+	margin-top: 40px;
+	padding: 25px;
+	line-height: 2;
+	background-color: #ffffff;
+	text-align: left;
+}
+
+.Profilepic {
+	position: fixed;
+	top: 0;
+}
+
+.text {
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h2 {
+	height: 75px;
+	width: 80%;
+	border-bottom: solid;
+	border-color: #cccccc;
+	width: auto;
+	background-color: #ffffff;
+	font-size: 200%;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+aside {
+	float: right;
+	padding: 25px;
+	margin-top: 40px;
+	margin-right: -25px;
+	line-height: 2;
+	background-color: #ffffff;
+}
+
+h3 {
+	width: 100%;
+	border-bottom: solid;
+	border-color: #cccccc;
+	margin-bottom: 15px;
+	font-size: 150%;
+	font-weight: 600;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #666666;
+	text-align: center;
+	padding: 30px;
+	border-top: solid;
+	border-color: #4aaaa5;
 }
